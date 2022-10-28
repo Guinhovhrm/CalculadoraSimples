@@ -4,17 +4,18 @@ import java.util.Scanner;
 
 public class CriarMetdd {
     
-    static int n1 = 0;
-    static int n2 = 0;
+    static double n1 = 0;
+    static double n2 = 0;
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         String cont;
                     
         System.out.println("Digite o primeiro numero: ");
-        n1 = sc.nextInt();
+        n1 = sc.nextDouble();
         System.out.println("Digite o segundo numero: ");
-        n2 = sc.nextInt();
+        n2 = sc.nextDouble();
+        
         
         //System.out.println("Sout de fora " + Nome(n1, n2));
         
@@ -69,21 +70,21 @@ public class CriarMetdd {
           
             
     }
-    public static int Sub(int n1, int n2){
+    public static double Sub(double n1, double n2){
              
         return (n1 - n2);
     }
     
-    public static int Adic (int n1, int n2){
+    public static double Adic (double n1, double n2){
         
         return (n1 + n2);
     }
     
-    public static int Mult (int n1, int n2){
+    public static double Mult (double n1, double n2){
         
         return (n1 * n2);
     }
-    public static int Divd (int n1, int n2){
+    public static double Divd (double n1, double n2){
         
         return (n1/n2);
     }
